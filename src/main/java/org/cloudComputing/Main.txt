@@ -1,0 +1,43 @@
+package org.cloudComputing;
+
+public class Main {
+  public static void main(String[] args) {
+    // Simulated SNS message in JSON format
+//    String simulatedSnsMessage = """
+//            {
+//              "userId": "12345",
+//              "emailAddress": "aadityakasbekar@gmail.com",
+//              "token": "abc123"
+//            }
+//        """;
+//
+//    // Simulate SNS event
+//    SNSEvent testEvent = createTestSnsEvent(simulatedSnsMessage);
+//
+//    // Mock context
+//    MockContext mockContext = new MockContext();
+//
+//    // Invoke the Lambda handler
+//    VerificationHandler handler = new VerificationHandler();
+//    String result = handler.handleRequest(testEvent, mockContext);
+//
+//    // Print the result
+//    System.out.println("Lambda Result: " + result);
+  }
+
+//  private static SNSEvent createTestSnsEvent(String message) {
+//    // Create a mock SNS object
+//    SNSEvent.SNS sns = new SNSEvent.SNS();
+//    sns.setMessage(message);
+//
+//    // Create an SNSRecord object
+//    SNSEvent.SNSRecord snsRecord = new SNSEvent.SNSRecord();
+//    snsRecord.setSns(sns);
+//
+//    // Create the SNSEvent object and add the record
+//    SNSEvent event = new SNSEvent();
+//    event.setRecords(Collections.singletonList(snsRecord));
+//
+//    return event;
+//  }
+}
